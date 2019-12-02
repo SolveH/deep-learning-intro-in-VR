@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 4322a760a660de44291d63542006626f
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 64ed0af2f733c6fd8b6ddcc4c0cbc47c
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 2.225611, y: 1.2102848, z: -1.5546693}
+      lookAt: {x: 0.78828424, y: 0.33579674, z: 0.36765566}
+      up: {x: -0.2049882, y: 0.9395837, z: 0.27415746}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes:
+    - camera:
+        position: {x: 2.225611, y: 1.2102848, z: -1.5546693}
+        lookAt: {x: 0.78828424, y: 0.33579674, z: 0.36765566}
+        up: {x: -0.2049882, y: 0.9395837, z: 0.27415746}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Home
+    - camera:
+        position: {x: 1.5416116, y: 0.3064303, z: -0.14302345}
+        lookAt: {x: 0.10428464, y: -0.56805784, z: 1.7793014}
+        up: {x: -0.2049882, y: 0.9395837, z: 0.27415746}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Close up KD
+    - camera:
+        position: {x: 6.3822513, y: 1.1306884, z: 0.7535956}
+        lookAt: {x: 6.3822513, y: 1.1306884, z: 5.3484545}
+        up: {x: 0, y: 1, z: 0}
+        fov: 45
+        aspectRatio: 0
+        orthoSize: 111.66266
+        isPerspective: 0
+      name: Third orthographic view
+    - camera:
+        position: {x: 0.7366, y: 0.42545, z: -2.405104}
+        lookAt: {x: 0.7366, y: 0.42545, z: 0.3556}
+        up: {x: 0, y: 1, z: 0}
+        fov: 45
+        aspectRatio: 0
+        orthoSize: 68.5391
+        isPerspective: 0
+      name: Page 2
+    - camera:
+        position: {x: 3.497304, y: 0.42545, z: 0.3556}
+        lookAt: {x: 0.7366, y: 0.42545, z: 0.3556}
+        up: {x: 0, y: 1, z: 0}
+        fov: 45
+        aspectRatio: 0
+        orthoSize: 68.5391
+        isPerspective: 0
+      name: Page 3
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: boards
+    100002: boards 1
+    100004: boards 10
+    100006: boards 11
+    100008: boards 2
+    100010: boards 3
+    100012: boards 4
+    100014: boards 5
+    100016: boards 6
+    100018: boards 7
+    100020: boards 8
+    100022: boards 9
+    100024: bottom batten
+    100026: bottom batten 1
+    100028: leg
+    100030: leg 1
+    100032: leg 2
+    100034: leg 3
+    100036: long rail
+    100038: long rail 1
+    100040: short rail
+    100042: short rail 1
+    100044: Top
+    100046: top battens
+    100048: top battens 1
+    100050: //RootNode
+    400000: boards
+    400002: boards 1
+    400004: boards 10
+    400006: boards 11
+    400008: boards 2
+    400010: boards 3
+    400012: boards 4
+    400014: boards 5
+    400016: boards 6
+    400018: boards 7
+    400020: boards 8
+    400022: boards 9
+    400024: bottom batten
+    400026: bottom batten 1
+    400028: leg
+    400030: leg 1
+    400032: leg 2
+    400034: leg 3
+    400036: long rail
+    400038: long rail 1
+    400040: short rail
+    400042: short rail 1
+    400044: Top
+    400046: top battens
+    400048: top battens 1
+    400050: //RootNode
+    2100000: wood-med08_t_800[1]R
+    2100002: wood-med08_t_800[1]
+    2300000: boards
+    2300002: boards 1
+    2300004: boards 10
+    2300006: boards 11
+    2300008: boards 2
+    2300010: boards 3
+    2300012: boards 4
+    2300014: boards 5
+    2300016: boards 6
+    2300018: boards 7
+    2300020: boards 8
+    2300022: boards 9
+    2300024: bottom batten
+    2300026: bottom batten 1
+    2300028: leg
+    2300030: leg 1
+    2300032: leg 2
+    2300034: leg 3
+    2300036: long rail
+    2300038: long rail 1
+    2300040: short rail
+    2300042: short rail 1
+    2300044: Top
+    2300046: top battens
+    2300048: top battens 1
+    3300000: boards
+    3300002: boards 1
+    3300004: boards 10
+    3300006: boards 11
+    3300008: boards 2
+    3300010: boards 3
+    3300012: boards 4
+    3300014: boards 5
+    3300016: boards 6
+    3300018: boards 7
+    3300020: boards 8
+    3300022: boards 9
+    3300024: bottom batten
+    3300026: bottom batten 1
+    3300028: leg
+    3300030: leg 1
+    3300032: leg 2
+    3300034: leg 3
+    3300036: long rail
+    3300038: long rail 1
+    3300040: short rail
+    3300042: short rail 1
+    3300044: Top
+    3300046: top battens
+    3300048: top battens 1
+    4300000: Mesh leg
+    4300002: Mesh short rail
+    4300004: Mesh top battens
+    4300006: Mesh bottom batten
+    4300008: Mesh boards
+    4300010: Mesh long rail
+    4300012: Mesh Top
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
