@@ -4,22 +4,29 @@ using UnityEngine;
 
 public class DoorRotator : MonoBehaviour
 {
-    private float rotationSpeed = 0.01f;
-    private float y = 0;
-    
+    private float rotationSpeed = 0.3f;
+    Quaternion doorClosed = Quaternion.Euler(0, 0, 0);
+    Quaternion doorOpen = Quaternion.Euler(0, -150, 0);
+    Quaternion currentAngle;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        currentAngle = doorClosed;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(y > -150)
-        {
-            y += Time.deltaTime * -20;
-            transform.rotation = Quaternion.Euler(0, y, 0);
-        }
+        transform.rotation = Quaternion.Slerp(transform.rotation, currentAngle, Time.deltaTime * rotationSpeed);
+    }
+    public void OpenDoor()
+    {
+        currentAngle = doorOpen;
+    }
+    public void CloseDoor()
+    {
+        currentAngle = doorClosed;
     }
 }

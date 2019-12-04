@@ -16,10 +16,10 @@ TagManager:
   - 
   - PostProcessing
   - Teleportable
-  - 
-  - 
-  - 
-  - 
+  - KeyLayer
+  - CoffeeLayer
+  - FadeCamera
+  - FadeOut
   - 
   - 
   - 
