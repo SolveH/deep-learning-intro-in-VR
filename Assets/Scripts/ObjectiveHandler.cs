@@ -68,14 +68,4 @@ public class ObjectiveHandler : MonoBehaviour
             teleport_text.text = "Release the joystick to teleport";
         }
     }
-    public void Win()
-    {
-        StartCoroutine(QuitApplication(3.0f));
-    }
-
-    public IEnumerator QuitApplication(float time)
-    {
-        yield return new WaitForSeconds(time);
-        Application.Quit();
-    }
 }
