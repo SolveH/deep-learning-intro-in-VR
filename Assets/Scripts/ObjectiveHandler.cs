@@ -40,7 +40,7 @@ public class ObjectiveHandler : MonoBehaviour
             if (Vector3.Distance(headsetAlias.transform.position, teleportTarget.transform.position) < 3)
             {
                 task3finished = true;
-                teleport_text.text = "You can teleport while holding an item";
+                teleport_text.text = "Unlock the door using the key";
                 keygrabbingTVCanvas.SetActive(true);
             }
         }
