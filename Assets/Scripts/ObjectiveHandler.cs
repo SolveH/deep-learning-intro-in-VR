@@ -46,14 +46,14 @@ public class ObjectiveHandler : MonoBehaviour
         }
     }
 
-    public void firstGrabbedCoffee()
+    public void FirstGrabbedCoffee()
     {
         task1finished = true;
         coffeeSnapZone.SetActive(true);
         tv_text.text = "Put the coffee cup in the coffee machine";
     }
 
-    public void coffeeSnapped()
+    public void CoffeeSnapped()
     {
         task2finished = true;
         tv_text.text = "Turn left";
@@ -61,11 +61,21 @@ public class ObjectiveHandler : MonoBehaviour
         teleport_text.text = "Pull the joystick forward and point at the teleport target";
     }
 
-    public void teleportTargetEntered()
+    public void TeleportTargetEntered()
     {
         if(!task3finished)
         {
             teleport_text.text = "Release the joystick to teleport";
         }
+    }
+    public void Win()
+    {
+        StartCoroutine(QuitApplication(3.0f));
+    }
+
+    public IEnumerator QuitApplication(float time)
+    {
+        yield return new WaitForSeconds(time);
+        Application.Quit();
     }
 }
