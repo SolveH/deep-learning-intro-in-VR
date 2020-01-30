@@ -18,6 +18,12 @@ public class GameManager : MonoBehaviour
 
     public void QuitApplication()
     {
+        Application.Quit();
+    }
+
+    //Example of how to execute action after 1s.
+    /*public void QuitApplication()
+    {
         StartCoroutine(QuitAfterSeconds(1.0f));
     }
 
@@ -25,5 +31,5 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         Application.Quit();
-    }
+    }*/
 }
