@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: d2ef40bdb8a75be42bb3ef9ffb1fca3b
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 70666fd7ef228594025deaa8ec61f851
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 1.6491205, y: 1.6020492, z: -1.4956297}
+      lookAt: {x: 0.27538186, y: 0.43346384, z: 0.38752335}
+      up: {x: -0.26412213, y: 0.8939511, z: 0.36206478}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes:
+    - camera:
+        position: {x: 2.1325479, y: 1.747179, z: -1.5184318}
+        lookAt: {x: 0.45173782, y: 0.6845428, z: 0.296722}
+        up: {x: -0.26815677, y: 0.91881967, z: 0.28959}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: "Scena\_1"
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Componente#1
+    100002: Componente#1 1
+    100004: Componente#2
+    100006: Componente#2 1
+    100008: Componente#3
+    100010: Group 2
+    100012: Group 8
+    100014: //RootNode
+    400000: Componente#1
+    400002: Componente#1 1
+    400004: Componente#2
+    400006: Componente#2 1
+    400008: Componente#3
+    400010: Group 2
+    400012: Group 8
+    400014: //RootNode
+    2100000: _defaultMat
+    2100002: '[Color_006]'
+    2300000: Componente#1
+    2300002: Componente#1 1
+    2300004: Componente#2
+    2300006: Componente#2 1
+    2300008: Componente#3
+    2300010: Group 2
+    2300012: Group 8
+    2300014: //RootNode
+    3300000: Componente#1
+    3300002: Componente#1 1
+    3300004: Componente#2
+    3300006: Componente#2 1
+    3300008: Componente#3
+    3300010: Group 2
+    3300012: Group 8
+    3300014: //RootNode
+    4300000: Mesh QS1_02 (1)
+    4300002: Mesh Group 2
+    4300004: Mesh Componente#1
+    4300006: Mesh Componente#2
+    4300008: Mesh Componente#3
+    4300010: Mesh Incline table
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
