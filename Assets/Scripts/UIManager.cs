@@ -17,7 +17,12 @@ public class UIManager : MonoBehaviour
 
         room1Btn.onClick.AddListener(() =>
         {
-            SceneLoader.Load(SceneLoader.Scene.Loading);
+            SceneLoader.Load(SceneLoader.Scene.Room1);
         });
+    }
+
+    public void QuitApplication()
+    {
+        Application.Quit();
     }
 }

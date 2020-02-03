@@ -58,14 +58,14 @@ public class ObjectiveHandler : MonoBehaviour
         task2finished = true;
         tv_text.text = "Turn left";
         teleportTarget.SetActive(true);
-        teleport_text.text = "Push the joystick forward and point at the teleport target";
+        teleport_text.text = "Put your finger on the joystick and point at target destination";
     }
 
     public void TeleportTargetEntered()
     {
         if(!task3finished)
         {
-            teleport_text.text = "Release the joystick to teleport";
+            teleport_text.text = "Press the joystick down to teleport to target destination";
         }
     }
 }

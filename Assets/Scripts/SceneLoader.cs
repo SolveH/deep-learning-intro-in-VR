@@ -8,11 +8,19 @@ public static class SceneLoader
     public enum Scene
     {
         Tutorial,
-        Loading,
+        Room1,
     }
 
     public static void Load(Scene scene)
     {
-        SceneManager.LoadScene(scene.ToString());
+        //Load Scene if it is not the current Scene. 
+        if (SceneManager.GetActiveScene() != SceneManager.GetSceneByName(scene.ToString()))
+        {
+            SceneManager.LoadScene(scene.ToString());
+        }
+        else
+        {
+            //TODO: Implement resume game here
+        }
     }
 }
