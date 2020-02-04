@@ -5,4 +5,9 @@ using UnityEngine;
 public class NNInput : MonoBehaviour
 {
     public int inputValue;
+
+    public int getInputValue()
+    {
+        return inputValue;
+    }
 }
