@@ -7,6 +7,10 @@ public class Perceptron : MonoBehaviour
     public GameObject door;
     private Animator animator;
 
+    public Material red;
+    public Material green;
+    public List<GameObject> outputElements;
+
     [SerializeField]
     private int bias = 3;
     [SerializeField]
@@ -30,6 +34,17 @@ public class Perceptron : MonoBehaviour
         if(calculateOutput() == 1)
         {
             animator.SetTrigger("TaskSolved");
+            foreach (GameObject o in outputElements)
+            {
+                o.GetComponent<Renderer>().material = green;
+            }
+        }
+        else
+        {
+            foreach (GameObject o in outputElements)
+            {
+                o.GetComponent<Renderer>().material = red;
+            }
         }
     }
 
