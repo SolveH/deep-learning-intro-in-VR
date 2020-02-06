@@ -5,7 +5,7 @@ using UnityEngine;
 public class Perceptron : MonoBehaviour
 {
     public GameObject door;
-    private Animator animator;
+    private SlideDoor slideDoorScript;
 
     public Material red;
     public Material green;
@@ -25,15 +25,16 @@ public class Perceptron : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animator = door.GetComponent<Animator>();
+        slideDoorScript = door.GetComponent<SlideDoor>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        //should probably not do this in this loop
         if(calculateOutput() == 1)
         {
-            animator.SetTrigger("TaskSolved");
+            slideDoorScript.OpenDoor();
             foreach (GameObject o in outputElements)
             {
                 o.GetComponent<Renderer>().material = green;
@@ -41,7 +42,7 @@ public class Perceptron : MonoBehaviour
         }
         else
         {
-            animator.ResetTrigger("TaskSolved");
+            slideDoorScript.CloseDoor();
             foreach (GameObject o in outputElements)
             {
                 o.GetComponent<Renderer>().material = red;
