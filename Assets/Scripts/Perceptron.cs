@@ -41,6 +41,7 @@ public class Perceptron : MonoBehaviour
         }
         else
         {
+            animator.ResetTrigger("TaskSolved");
             foreach (GameObject o in outputElements)
             {
                 o.GetComponent<Renderer>().material = red;
