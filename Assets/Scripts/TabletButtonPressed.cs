@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class TabletButtonPressed : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public string buttonType;
+    private CalculatorManager calcManager;
+
+    private void Start()
     {
-        
+        calcManager = GetComponentInParent<CalculatorManager>();
     }
 
-    // Update is called once per frame
-    void Update()
+    // Start is called before the first frame update
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if(other.tag == "IndexFinger")
+        {
+            calcManager.ButtonPressed(buttonType);
+        }
     }
 }

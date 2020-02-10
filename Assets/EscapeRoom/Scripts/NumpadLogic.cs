@@ -10,13 +10,19 @@ public class NumpadLogic : MonoBehaviour
     protected string currentCode = "0000";
     public UnityEvent onWin;
     public TMPro.TextMeshProUGUI display;
-
+    private AudioSource beepAudioSource;
 
     void Awake() {
         currentCode = display.text;
     }
 
+    private void Start()
+    {
+        beepAudioSource = GetComponentInParent<AudioSource>();
+    }
+
     public void ButtonPressed(int val) {
+        beepAudioSource.Play();
         currentCode = currentCode.Substring(1) + val.ToString();
         display.text = currentCode;
 

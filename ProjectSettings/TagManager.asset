@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Coffeecup
+  - IndexFinger
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - CoffeeLayer
   - FadeCamera
   - FadeOut
-  - 
+  - PokeLayer
   - 
   - 
   - 
