@@ -1,26 +1,43 @@
 fileFormatVersion: 2
-guid: 4d00521e9e6ba004080de01b89654cfd
-ModelImporter:
+guid: dd2be06fbf15fe44f991947635a16388
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 0000000001000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 50142dd37b0cae02f6e6a5e33d274806
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.49341854, y: 0.40262723, z: -1.9634575}
+      lookAt: {x: 0.501631, y: 0.40409613, z: -1.7182056}
+      up: {x: -0.00020032877, y: 0.9999821, z: -0.0059824744}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: default
     400000: //RootNode
-    400002: default
-    2100000: mat8
-    2100002: mat21
-    2100004: mat22
-    2100006: mat17
-    2100008: mat11
-    2100010: mat23
-    2300000: default
-    3300000: default
-    4300000: default
+    2100000: _defaultMat
+    2100002: '[Color_009]'
+    2100004: '[Color_006]'
+    2100006: '[Color_000]'
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Mesh Untitled (1)
+    4300002: Mesh Cassette player
   externalObjects: {}
   materials:
     importMaterials: 1
-    materialName: 0
-    materialSearch: 1
+    materialName: 2
+    materialSearch: 0
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
@@ -47,7 +64,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.00025399998
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -78,7 +95,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
