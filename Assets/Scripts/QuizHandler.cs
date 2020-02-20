@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using QuickType;
 
 public class QuizHandler : MonoBehaviour
 {
@@ -15,8 +16,13 @@ public class QuizHandler : MonoBehaviour
     private TMP_Text answer3Text;
     private TMP_Text answer4Text;
 
+
     private bool cartridgeInserted = false;
+    private CartridgeJSONReader cartridgeScript;
+    private Question[] questions;
     private int totalQuestions = 5;
+
+    private int currentQuestionNumber = 0;
 
 
     // Start is called before the first frame update
@@ -51,12 +57,12 @@ public class QuizHandler : MonoBehaviour
         }
     }
 
-    private void SetQuestion(string qNum, string question, List<string> answers)
+    private void SetQuestion(int qNum, string question, string[] answers)
     {
-        questionNumberText.text = qNum + "/" + totalQuestions.ToString();
+        questionNumberText.text = qNum.ToString() + "/" + totalQuestions.ToString();
         questionText.text = question;
 
-        int answerCount = answers.Count;
+        int answerCount = answers.Length;
         List<string> answersWithEmptyStrings = new List<string>();
         foreach(string answer in answers)
         {
@@ -72,18 +78,57 @@ public class QuizHandler : MonoBehaviour
         answer4Text.text = answersWithEmptyStrings[3];
     }
 
-    public void InsertCartridge()
+    public void InsertCartridge(GameObject input)
     {
         cartridgeInserted = true;
+        cartridgeScript = input.GetComponent<CartridgeJSONReader>();
+        questions = cartridgeScript.GetQuestions();
+        currentQuestionNumber = 0;
+        totalQuestions = questions.Length - 1;
+
+        StartQuiz();
+        
     }
-    public void EjectCartridge()
+    public void EjectCartridge(GameObject input)
     {
         cartridgeInserted = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void StartQuiz()
     {
-        
+        Question q = questions[0];
+        SetQuestion(currentQuestionNumber + 1, q.Questiontext, q.Answers);
+    }
+    private void NextQuestion()
+    {
+        if(currentQuestionNumber < totalQuestions)
+        {
+            currentQuestionNumber += 1;
+            Question q = questions[currentQuestionNumber];
+            SetQuestion(currentQuestionNumber + 1, q.Questiontext, q.Answers);
+        }else
+        {
+            cartridgeScript.CompletedCartridge();
+        }
+    }
+    private bool CheckAnswerCorrect(int answerNumber)
+    {
+        foreach(int correctAnswerNumber in questions[currentQuestionNumber].Correctanswers)
+        {
+            if(answerNumber == correctAnswerNumber)
+            {
+                return true;
+            }
+        }
+        return false;   
+    }
+
+    public void HandleButtonInput(int buttonNumber)
+    {
+        Debug.Log("Got button input: " + buttonNumber);
+        if (CheckAnswerCorrect(buttonNumber))
+        {
+            NextQuestion();
+        }
     }
 }
