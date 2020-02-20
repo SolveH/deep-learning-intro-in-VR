@@ -15,6 +15,7 @@ public class QuizHandler : MonoBehaviour
     private TMP_Text answer3Text;
     private TMP_Text answer4Text;
 
+    private bool cartridgeInserted = false;
     private int totalQuestions = 5;
 
 
@@ -69,6 +70,15 @@ public class QuizHandler : MonoBehaviour
         answer2Text.text = answersWithEmptyStrings[1];
         answer3Text.text = answersWithEmptyStrings[2];
         answer4Text.text = answersWithEmptyStrings[3];
+    }
+
+    public void InsertCartridge()
+    {
+        cartridgeInserted = true;
+    }
+    public void EjectCartridge()
+    {
+        cartridgeInserted = false;
     }
 
     // Update is called once per frame
