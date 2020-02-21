@@ -1,5 +1,5 @@
 {
-  "data": [
+  "data" : [
     {
       "questiontext": "When is the bias added in a neuron?",
       "answers": [ "After summation", "After the activation function", "Before the activation function", "Before summation" ],
@@ -14,6 +14,16 @@
       "questiontext": "What is the output of the perceptron after applying the activation function to this: \n z = w * x + b = 1.714?",
       "answers": [ "0.8474", "- 0.8474", "0", "1" ],
       "correctanswers": [ 3 ]
+    },
+    {
+      "questiontext": "How does a neural network improve accuracy?",
+      "answers": [ "By automatically making small changes in weights and biases", "By developers manually adjusting weights and biases", "By applying larger sets of training data", "By spending less time on training and more time on testing" ],
+      "correctanswers": [ 0, 2 ]
+    },
+    {
+      "questiontext": "Why can perceptrons cause difficulties when learning?",
+      "answers": [ "Small changes made to improve accuracy for some inputs may cause unexpected results for others", "They aren't bad for learning", "The range of output values is too small", "The range of output values is too large" ],
+      "correctanswers": [ 0, 2 ]
     }
   ]
 }
