@@ -17,15 +17,17 @@ public class CartridgeJSONReader : MonoBehaviour
 
     void Start()
     {
-        try
-        {
-            path = Application.streamingAssetsPath + "/" + fileName;
-            jsonString = File.ReadAllText(path);
-            questions = Cartridge.FromJson(jsonString).Data;
-        }catch(FileNotFoundException e)
-        {
-            Debug.Log("There is no file with the name: ''" + fileName + "''. \n Exception text: " + e);
+        //add try catching
+        path = Application.streamingAssetsPath + "/" + fileName;
+        UnityEngine.Networking.UnityWebRequest www = UnityEngine.Networking.UnityWebRequest.Get(path);
+        www.SendWebRequest();
+        while (!www.isDone)
+        { 
+            //wait
         }
+        jsonString = www.downloadHandler.text;
+        questions = Cartridge.FromJson(jsonString).Data;
+        //Debug.Log("There is no file with the name: ''" + fileName + "''. \n Exception text: " + e);
     }
     public Question[] GetQuestions()
     {

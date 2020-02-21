@@ -11,7 +11,7 @@
       "correctanswers": [ 1, 2, 3 ]
     },
     {
-      "questiontext": "What is the output of the perceptron with after applying the activation function to this: \n z = w * x + b = 1.714?",
+      "questiontext": "What is the output of the perceptron after applying the activation function to this: \n z = w * x + b = 1.714?",
       "answers": [ "0.8474", "- 0.8474", "0", "1" ],
       "correctanswers": [ 3 ]
     }

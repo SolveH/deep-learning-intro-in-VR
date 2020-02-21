@@ -1,0 +1,9 @@
+{
+  "data": [
+    {
+      "questiontext": "What are cost functions used for?",
+      "answers": [ "Changing the amount of neurons in the hidden layers of a NN", "Measuring performance in a NN", "Measuring time required to train a NN", "Improving weights and biases in a NN" ],
+      "correctanswers": [ 1, 3 ]
+    }
+  ]
+}
