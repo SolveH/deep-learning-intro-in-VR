@@ -3,16 +3,19 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using QuickType;
+using UnityEngine.Events;
 
 public class CartridgeJSONReader : MonoBehaviour
 {
     public string fileName;
     //public Material red;
     public Material green;
+    public UnityEvent winEvent;
 
     private string path;
     private string jsonString;
     private Question[] questions;
+
 
 
     void Start()
@@ -41,6 +44,7 @@ public class CartridgeJSONReader : MonoBehaviour
             if(r.name == "Cartridge")
             {
                 r.material = green;
+                winEvent.Invoke();
             }
         }
         

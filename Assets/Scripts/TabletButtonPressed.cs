@@ -15,9 +15,7 @@ public class TabletButtonPressed : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "IndexFinger")
-        {
-            calcManager.ButtonPressed(buttonType);
-        }
+        //This happened because both was on the PokeLayer
+        calcManager.ButtonPressed(buttonType);
     }
 }

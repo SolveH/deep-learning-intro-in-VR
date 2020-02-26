@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "questiontext": "What is gradient descent used for in NN?",
+      "answers": [ "Finding the minimum value for some cost function",
+        "Finding the maximum value for some cost function",
+        "Rolling a ball uphill", 
+        "As an activation function" ],
+      "correctanswers": [ 0 ]
+    }
+  ]
+}
