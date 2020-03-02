@@ -212,7 +212,8 @@ public class QuizHandler : MonoBehaviour
     }
     private bool CheckEnoughPointsToWin()
     {
-        if(points == totalQuestions + 1)
+        float currentPercentage = (float)points / (float)(totalQuestions + 1);
+        if(currentPercentage >= 0.8)
         {
             return true;
         }return false;

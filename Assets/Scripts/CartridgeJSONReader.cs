@@ -12,6 +12,7 @@ public class CartridgeJSONReader : MonoBehaviour
     public Material green;
     public UnityEvent winEvent;
 
+    private AudioSource winSound;
     private string path;
     private string jsonString;
     private Question[] questions;
@@ -20,7 +21,9 @@ public class CartridgeJSONReader : MonoBehaviour
 
     void Start()
     {
-        //add try catching
+        winSound = GetComponentInParent<AudioSource>();
+
+        //add try catching for when file is not found?
         path = Application.streamingAssetsPath + "/" + fileName;
         UnityEngine.Networking.UnityWebRequest www = UnityEngine.Networking.UnityWebRequest.Get(path);
         www.SendWebRequest();
@@ -30,7 +33,6 @@ public class CartridgeJSONReader : MonoBehaviour
         }
         jsonString = www.downloadHandler.text;
         questions = Cartridge.FromJson(jsonString).Data;
-        //Debug.Log("There is no file with the name: ''" + fileName + "''. \n Exception text: " + e);
     }
     public Question[] GetQuestions()
     {
@@ -43,6 +45,7 @@ public class CartridgeJSONReader : MonoBehaviour
         {
             if(r.name == "Cartridge")
             {
+                winSound.Play();
                 r.material = green;
                 winEvent.Invoke();
             }

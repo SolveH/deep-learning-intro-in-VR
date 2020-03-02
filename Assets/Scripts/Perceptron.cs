@@ -20,6 +20,8 @@ public class Perceptron : MonoBehaviour
     private int x1 = 999;
     private int x2 = 999;
 
+    private int previousOutput = 0;
+
     
 
     // Start is called before the first frame update
@@ -32,21 +34,23 @@ public class Perceptron : MonoBehaviour
     void Update()
     {
         //should probably not do this in this loop
-        if(calculateOutput() == 1)
+        if(calculateOutput() == 1 && previousOutput == 0)
         {
             slideDoorScript.OpenDoor();
             foreach (GameObject o in outputElements)
             {
                 o.GetComponent<Renderer>().material = green;
             }
+            previousOutput = 1;
         }
-        else
+        else if(calculateOutput() == 0 && previousOutput == 1)
         {
             slideDoorScript.CloseDoor();
             foreach (GameObject o in outputElements)
             {
                 o.GetComponent<Renderer>().material = red;
             }
+            previousOutput = 0;
         }
     }
 
