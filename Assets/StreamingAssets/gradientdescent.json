@@ -2,11 +2,33 @@
   "data": [
     {
       "questiontext": "What is gradient descent used for in NN?",
-      "answers": [ "Finding the minimum value for some cost function",
+      "answers": [
+        "Finding the minimum value for some cost function",
         "Finding the maximum value for some cost function",
-        "Rolling a ball uphill", 
-        "As an activation function" ],
+        "Rolling a ball uphill",
+        "As an activation function"
+      ],
       "correctanswers": [ 0 ]
+    },
+    {
+      "questiontext": "What is a gradient?",
+      "answers": [
+        "The global minimum of a cost function",
+        "A cost function",
+        "The direction of fastest decrease of a function, from a point p",
+        "The direction of fastest increase of a function, from a point p"
+      ],
+      "correctanswers": [ 3 ]
+    },
+    {
+      "questiontext": "How does gradient descent help finding a minimum of the cost function?",
+      "answers": [
+        "By applying gradient descent, you instantly get the global minimum of the function",
+        "By iteratively calculating the negative gradient and moving in that direction until you have found a local or hopefully the global minimum",
+        "This is not the use case of gradient descent",
+        "By considering multiple inputs to the NN and applying gradient descent to the average of of all inputs, you decrease the average cost"
+      ],
+      "correctanswers": [ 1, 3 ]
     }
   ]
 }
