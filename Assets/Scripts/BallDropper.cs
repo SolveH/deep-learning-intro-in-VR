@@ -56,7 +56,7 @@ public class BallDropper : MonoBehaviour
             float ballX = Mathf.Round(ball.transform.localPosition.x * 100f) / 100f;
             float ballY = Mathf.Round(ball.transform.localPosition.z * 100f) / 100f;
             float functionCost = Mathf.Round((ball.transform.localPosition.y - 0.2578442f) * 100f) / 100f;
-            gradientDescentValuesText.text = "x = " + ballX + "\n y = " + ballY + "\n C(x, y) = " + functionCost;
+            gradientDescentValuesText.text = "w = " + ballX + "\n b = " + ballY + "\n C(w, b) = " + functionCost;
             if (ball.GetComponent<Rigidbody>().velocity.magnitude < 0.01f)
             {
                 Destroy(ball);
