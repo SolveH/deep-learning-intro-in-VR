@@ -16,6 +16,7 @@ public class QuizHandler : MonoBehaviour
     private TMP_Text answer3Text;
     private TMP_Text answer4Text;
     private TMP_Text pointsText;
+    private TMP_Text helpText;
     private Image panel1;
     private Image panel2;
     private Image panel3;
@@ -91,6 +92,9 @@ public class QuizHandler : MonoBehaviour
                 case "Points":
                     pointsText = text;
                     break;
+                case "Help text":
+                    helpText = text;
+                    break;
                 default:
                     Debug.Log("Found an unexpected text element inside quiz canvas. Name: " + text.name);
                     break;
@@ -98,6 +102,7 @@ public class QuizHandler : MonoBehaviour
         }
     }
 
+    //Sets the screen to only show question
     private void SetQuestion(int qNum, string question, string[] answers)
     {
         questionNumberText.text = "#" +  qNum.ToString() + "/" + (totalQuestions+1).ToString();
@@ -118,12 +123,16 @@ public class QuizHandler : MonoBehaviour
         answer2Text.text = answersWithEmptyStrings[1];
         answer3Text.text = answersWithEmptyStrings[2];
         answer4Text.text = answersWithEmptyStrings[3];
+        helpText.text = "";
     }
+
+    //Update points text
     private void SetPointsText()
     {
         pointsText.text = "Points: \n" + points;
     }
 
+    //When cartridge is inserted, get the List of questions and display the first question
     public void InsertCartridge(GameObject input)
     {
         cartridgeInserted = true;
@@ -138,16 +147,20 @@ public class QuizHandler : MonoBehaviour
         StartQuiz();
         
     }
+
     public void EjectCartridge(GameObject input)
     {
         cartridgeInserted = false;
     }
 
+    //Display first question. Nothing will happen until user gives input
     private void StartQuiz()
     {
         Question q = questions[0];
         SetQuestion(currentQuestionNumber + 1, q.Questiontext, q.Answers);
     }
+
+
     private void NextQuestion()
     {
 
@@ -166,6 +179,9 @@ public class QuizHandler : MonoBehaviour
         }
         return false;
     }
+
+    //Change the color of the alternatives to visualize if an answer is correct or not. 
+    //The validated user input will be displayed in a stronger color
     private void DisplayAnswers(int userInput)
     {
         Question q = questions[currentQuestionNumber];
@@ -174,24 +190,35 @@ public class QuizHandler : MonoBehaviour
         ColorPanelWithCorrectColor(1, userInput, panel2, correctAnswers);
         ColorPanelWithCorrectColor(2, userInput, panel3, correctAnswers);
         ColorPanelWithCorrectColor(3, userInput, panel4, correctAnswers);
+        helpText.color = grey;
+        helpText.text = "The next question will display after 2 seconds.";
     }
+
+    //Colors the corresponding answers panel to the correct color. 
     private void ColorPanelWithCorrectColor(int currentAnswer, int userInput, Image panel, List<int> correctAnswers)
     {
+        //Check whether the current panel is one of the correct answers
         if (correctAnswers.Contains(currentAnswer))
         {
+            //If the user also gave this answer, give a stronger green color. 
             if (userInput == currentAnswer)
                 panel.color = correctGreen;
+            //If not, give a lighter color to indicate that the answer is also correct. 
             else
                 panel.color = correctNotChosenLightgreen;
         }
         else
         {
+            //If the user gave an incorrect answer, give it a strong red color
             if (userInput == currentAnswer)
                 panel.color = incorrectRed;
+            //If not give it a light grey color
             else
                 panel.color = grey;
         }
     }
+
+    //Reset the panel colors to standard colors
     private void ResetPanelColors()
     {
         panel1.color = quizBlue;
@@ -219,6 +246,15 @@ public class QuizHandler : MonoBehaviour
         }return false;
     }
 
+    IEnumerator DisplayNextQuestionAfterTime(float time)
+    {
+        yield return new WaitForSeconds(time);
+        showAnswerScreen = false;
+        ResetPanelColors();
+        NextQuestion();
+
+    }
+
     public void HandleButtonInput(int buttonNumber)
     {
         Debug.Log("Got button input: " + buttonNumber);
@@ -230,6 +266,7 @@ public class QuizHandler : MonoBehaviour
                     points += 1;
                     SetPointsText();
                 }
+
                 showAnswerScreen = true;
                 DisplayAnswers(buttonNumber);
                 if (CheckFinished())
@@ -237,16 +274,22 @@ public class QuizHandler : MonoBehaviour
                     if (CheckEnoughPointsToWin())
                     {
                         cartridgeScript.CompletedCartridge();
+                        helpText.color = correctGreen;
+                        helpText.text = "Congratulations! You won the quiz.";
+                    }
+                    else
+                    {
+                        helpText.color = incorrectRed;
+                        int pointPercentage = (int)((float)points / (float)(totalQuestions + 1) * 100);
+                        helpText.text = "You need to get 80% of the answers correct, but you got " + pointPercentage + "%. \n Reinsert the cartridge to try again.";
                     }
                     showAnswerScreen = false;
                     currentCartridgeFinished = true;
                 }
-            }
-            else
-            {
-                showAnswerScreen = false;
-                ResetPanelColors();
-                NextQuestion();
+                else
+                {
+                    StartCoroutine(DisplayNextQuestionAfterTime(2.0f));
+                }
             }
         }
     }
