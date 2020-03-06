@@ -191,7 +191,7 @@ public class QuizHandler : MonoBehaviour
         ColorPanelWithCorrectColor(2, userInput, panel3, correctAnswers);
         ColorPanelWithCorrectColor(3, userInput, panel4, correctAnswers);
         helpText.color = grey;
-        helpText.text = "The next question will display after 2 seconds.";
+        helpText.text = "The next question will display after 2 sec";
     }
 
     //Colors the corresponding answers panel to the correct color. 
