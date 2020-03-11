@@ -6,8 +6,8 @@
       "correctanswers": [ 0, 2 ]
     },
     {
-      "questiontext": "What is the calculation of an output neuron in a NN based on?",
-      "answers": [ "Input to the network", "Weights from the previous to the last layer", "Bias", "Activation of nodes in previous layer" ],
+      "questiontext": "What is the calculation of an output neuron in the output layer in a NN based on?",
+      "answers": [ "Training input to the network", "Weights from the previous to the output layer", "Bias", "Activation of nodes in previous layer" ],
       "correctanswers": [ 1, 2, 3 ]
     },
     {

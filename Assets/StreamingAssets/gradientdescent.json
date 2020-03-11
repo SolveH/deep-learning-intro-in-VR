@@ -29,6 +29,26 @@
         "By considering multiple inputs to the NN and applying gradient descent to the average of of all inputs, you decrease the average cost"
       ],
       "correctanswers": [ 1, 3 ]
+    },
+    {
+      "questiontext": "Which technique can be used to speed up the process of finding a minimum of the cost?",
+      "answers": [
+        "Speculative gradient descent",
+        "Stochastic gradient descent",
+        "Conditional gradient descent",
+        "Chaotic gradient descent"
+      ],
+      "correctanswers": [ 1 ]
+    },
+    {
+      "questiontext": "Why is stochastic gradient descent efficient?",
+      "answers": [
+        "Because the amount of training data available is too high",
+        "Since it is well adapted to a high number dimensions",
+        "Because the gradient of the mini-batch is roughly equal to the one averaging over all training input",
+        "Because of the computational power available"
+      ],
+      "correctanswers": [ 2 ]
     }
   ]
 }
