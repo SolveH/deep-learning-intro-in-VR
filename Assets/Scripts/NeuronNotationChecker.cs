@@ -7,34 +7,40 @@ public class NeuronNotationChecker : MonoBehaviour
     public int layer;
     public int neuronIndex;
 
+    private NeuronNotationHandler neuronNotationHandler;
     private AudioSource incorrectAudio;
     private AudioSource correctAudio;
+    
     
     // Start is called before the first frame update
     void Start()
     {
+        neuronNotationHandler = GetComponentInParent<NeuronNotationHandler>();
         AudioSource[] audioSources = GetComponents<AudioSource>();
         incorrectAudio = audioSources[0];
         correctAudio = audioSources[1];
-        
-}
-
-    // Update is called once per frame
-    void Update()
-    {
         
     }
 
     public void insertNeuron(GameObject neuron)
     {
         NeuronNotationNeuron neuronScript = neuron.GetComponent<NeuronNotationNeuron>();
-        if(neuronScript.getNeuronLayer() != layer || neuronScript.getNeuronIndex() != neuronIndex)
+        if(neuronScript.getNeuronLayer() == layer && neuronScript.getNeuronIndex() == neuronIndex)
         {
-            incorrectAudio.Play();
+            neuronNotationHandler.CorrectNeuronAdded();
+            correctAudio.Play();
         }
         else
         {
-            correctAudio.Play();
+            incorrectAudio.Play();
+        }
+    }
+    public void ejectNeuron(GameObject neuron)
+    {
+        NeuronNotationNeuron neuronScript = neuron.GetComponent<NeuronNotationNeuron>();
+        if (neuronScript.getNeuronLayer() == layer && neuronScript.getNeuronIndex() == neuronIndex)
+        {
+            neuronNotationHandler.CorrectNeuronRemoved();
         }
     }
 }
