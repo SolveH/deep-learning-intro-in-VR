@@ -30,7 +30,7 @@ public class QuizHandler : MonoBehaviour
     private Color32 quizBlue = new Color32(0, 19, 255, 155);
     private Color32 quizGreen = new Color32(10, 103, 0, 155);
     private Color32 quizRed = new Color32(231, 18, 0, 155);
-    private Color32 quizPurple = new Color32(255, 6, 230, 155);
+    private Color32 quizYellow = new Color32(255, 245, 6, 155);
 
     private bool showAnswerScreen = false;
 
@@ -224,7 +224,7 @@ public class QuizHandler : MonoBehaviour
         panel1.color = quizBlue;
         panel2.color = quizGreen;
         panel3.color = quizRed;
-        panel4.color = quizPurple;
+        panel4.color = quizYellow;
     }
     private bool CheckFinished()
     {
