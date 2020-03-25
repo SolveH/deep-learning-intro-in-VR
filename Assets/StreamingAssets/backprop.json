@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "questiontext": "The gradient with respect to a certain weight is a large negative number. How do you change the weight to decrease the output of the cost function?",
+      "answers": [
+        "Decrease the weight a little bit",
+        "Decrease the weight a lot",
+        "Increase the weight a little bit",
+        "Increase the weight a lot"
+      ],
+      "correctanswers": [ 1 ]
+    },
+    {
+      "questiontext": "How does the change in some bias affect the rest of a neural network?",
+      "answers": [
+        "The current and any consecutive neuron's activation changes, but not the output of the cost function.",
+        "The current and any preceding neuron's activation changes, as well as the output of the cost function.",
+        "The current and any preceding neuron's activation changes, but not the output of the cost function.",
+        "The current and any consecutive neuron's activation changes, as well as the output of the cost function. "
+      ],
+      "correctanswers": [ 3 ]
+    },
+    {
+      "questiontext": "What is backpropagation?",
+      "answers": [
+        "A cost function",
+        "An algorithm used to minimize the cost function",
+        "An algorithm for finding all partial derivatives in the gradient vector",
+        "An algorithm used to look for patterns in the training data"
+      ],
+      "correctanswers": [ 2 ]
+    },
+    {
+      "questiontext": "What makes the chain rule useful in backpropagation?",
+      "answers": [
+        "It helps you compute the output of the cost function",
+        "It is not useful",
+        "It helps you find the partial derivatives in an efficient way",
+        "It finds the average gradient based on every training input"
+      ],
+      "correctanswers": [ 2 ]
+    }
+  ]
+}
