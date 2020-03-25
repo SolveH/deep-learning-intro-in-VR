@@ -5,6 +5,7 @@ using UnityEngine;
 public class TermRelationHandler : MonoBehaviour
 {
     public GameObject chainRuleInfoSheet;
+    public SlideDoor door;
 
     private int correctTermCount;
     private AudioSource winAudio;
@@ -24,6 +25,7 @@ public class TermRelationHandler : MonoBehaviour
         {
             chainRuleInfoSheet.SetActive(true);
             winAudio.Play();
+            door.OpenDoor();
         }
     }
     public void removeCorrectTerm()

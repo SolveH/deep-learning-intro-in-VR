@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ChainRuleNotationFormulaHandler : MonoBehaviour
 {
+    public GameObject informationTable;
+
     private int correctFormulaCount;
     private AudioSource winAudio;
 
@@ -21,6 +23,7 @@ public class ChainRuleNotationFormulaHandler : MonoBehaviour
         if (correctFormulaCount == 7)
         {
             winAudio.Play();
+            informationTable.SetActive(true);
         }
     }
     public void removeCorrectTerm()
