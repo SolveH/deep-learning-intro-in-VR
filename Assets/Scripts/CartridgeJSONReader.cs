@@ -13,6 +13,7 @@ public class CartridgeJSONReader : MonoBehaviour
     public UnityEvent winEvent;
 
     private AudioSource winSound;
+    private bool cartridgeCompleted = false;
     private string path;
     private string jsonString;
     private Question[] questions;
@@ -47,9 +48,13 @@ public class CartridgeJSONReader : MonoBehaviour
             {
                 winSound.Play();
                 r.material = green;
+                cartridgeCompleted = true;
                 winEvent.Invoke();
             }
         }
-        
+    }
+    public bool GetCartridgeCompleteStatus()
+    {
+        return cartridgeCompleted;
     }
 }

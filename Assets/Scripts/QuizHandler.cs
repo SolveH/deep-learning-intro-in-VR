@@ -9,6 +9,8 @@ public class QuizHandler : MonoBehaviour
 {
     public Canvas canvas;
 
+    private AudioSource correctAudio;
+    private AudioSource incorrectAudio;
     private TMP_Text questionNumberText;
     private TMP_Text questionText;
     private TMP_Text answer1Text;
@@ -21,6 +23,7 @@ public class QuizHandler : MonoBehaviour
     private Image panel2;
     private Image panel3;
     private Image panel4;
+    
 
     private Color32 grey = new Color32(199, 199, 199, 255);
     private Color32 correctGreen = new Color32(0, 255, 0, 255);
@@ -45,7 +48,13 @@ public class QuizHandler : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        foreach(Image img in canvas.GetComponentsInChildren<Image>())
+        //Get audio sources
+        AudioSource[] audioSources = GetComponents<AudioSource>();
+        correctAudio = audioSources[0];
+        incorrectAudio = audioSources[1];
+
+        //Get answer canvas panels
+        foreach (Image img in canvas.GetComponentsInChildren<Image>())
         {
             switch (img.name)
             {
@@ -67,6 +76,7 @@ public class QuizHandler : MonoBehaviour
             }
         }
 
+        //Get canvas text elements
         foreach(TMP_Text text in canvas.GetComponentsInChildren<TMP_Text>())
         {
             switch (text.name)
@@ -174,9 +184,11 @@ public class QuizHandler : MonoBehaviour
         {
             if(answerNumber == correctAnswerNumber)
             {
+                correctAudio.Play();
                 return true;
             }
         }
+        incorrectAudio.Play();
         return false;
     }
 
