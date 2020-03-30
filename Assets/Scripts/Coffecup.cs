@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Coffecup : MonoBehaviour
 {
+    public GameObject coffeEnvironmentParent;
+
     private Rigidbody rb;
 
     void Start()
@@ -15,7 +17,7 @@ public class Coffecup : MonoBehaviour
     void Update()
     {
         //If coffeecup is moved too far away, position is reset
-        if (Vector3.Distance(transform.position, new Vector3(2.023f, 1.099f, -2.896f)) > 0.8)
+        if (Vector3.Distance(transform.position, new Vector3(2.301f, 1.099f, -2.896f)) > 0.8)
         {
             Destroy(this.gameObject);
         }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Coffeecup
   - IndexFinger
+  - TeleportCurveIgnore
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - Ball
   - NotationNeuron
   - Term
-  - 
+  - TeleportPointer
   - 
   - 
   - 

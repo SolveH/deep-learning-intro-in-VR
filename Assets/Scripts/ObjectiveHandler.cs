@@ -56,7 +56,7 @@ public class ObjectiveHandler : MonoBehaviour
     public void CoffeeSnapped()
     {
         task2finished = true;
-        tv_text.text = "Turn left";
+        tv_text.text = "Turn left \n ←";
         teleportTarget.SetActive(true);
         teleport_text.text = "Put your finger on top of the joystick and point at target destination";
     }

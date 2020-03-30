@@ -25,4 +25,9 @@ public class UIManager : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void OpenSurveyInBrowser()
+    {
+        Application.OpenURL("https://forms.gle/Q6vwbRYoscrng9er9");
+    }
 }
