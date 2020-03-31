@@ -4,6 +4,16 @@
       "questiontext": "What are cost functions used for?",
       "answers": [ "Changing the amount of neurons in the hidden layers of a NN", "Measuring performance in a NN", "Measuring time required to train a NN", "Improving weights and biases in a NN" ],
       "correctanswers": [ 1, 3 ]
+    },
+    {
+      "questiontext": "What does y^ stand for?",
+      "answers": [ "Ground truth", "Predicted output", "True output", "Cost function output" ],
+      "correctanswers": [ 1 ]
+    },
+    {
+      "questiontext": "Which values are compared in the cost function?",
+      "answers": [ "Predicted output and cost", "Activation in the last layer and activations in the previous layer", "Predicted output and actual answer ", "Actual answer and cost" ],
+      "correctanswers": [ 2 ]
     }
   ]
 }
