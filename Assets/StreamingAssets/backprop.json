@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "questiontext": "The gradient with respect to a certain weight is a large negative number. How do you change the weight to decrease the output of the cost function?",
+      "questiontext": "The negative gradient with respect to a certain weight is a large negative number. How do you change the weight to decrease the output of the cost function?",
       "answers": [
         "Decrease the weight a little bit",
         "Decrease the weight a lot",
@@ -35,7 +35,7 @@
       "answers": [
         "It helps you compute the output of the cost function",
         "It is not useful",
-        "It helps you find the partial derivatives in an efficient way",
+        "It helps you find the partial derivatives in the early layers",
         "It finds the average gradient based on every training input"
       ],
       "correctanswers": [ 2 ]

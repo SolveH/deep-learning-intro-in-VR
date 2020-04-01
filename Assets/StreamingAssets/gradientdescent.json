@@ -31,6 +31,16 @@
       "correctanswers": [ 1, 3 ]
     },
     {
+      "questiontext": "What can happen if the value of the learning rate is too large?",
+      "answers": [
+        "The global minimum is never found.",
+        "It is very computationally demanding.",
+        "The process of gradient descent can be too slow.",
+        "A suboptimal solution might be found too quickly."
+      ],
+      "correctanswers": [ 3 ]
+    },
+    {
       "questiontext": "Which technique can be used to speed up the process of finding a minimum of the cost?",
       "answers": [
         "Speculative gradient descent",

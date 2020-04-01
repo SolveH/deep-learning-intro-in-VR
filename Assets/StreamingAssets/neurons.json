@@ -1,5 +1,5 @@
 {
-  "data" : [
+  "data": [
     {
       "questiontext": "When is the bias added in a neuron?",
       "answers": [ "After summation", "After the activation function", "Before the activation function", "Before summation" ],
@@ -14,6 +14,11 @@
       "questiontext": "What is the output of the perceptron after applying the activation function to this: \n z = w * x + b = 1.714?",
       "answers": [ "0.8474", "- 0.8474", "0", "1" ],
       "correctanswers": [ 3 ]
+    },
+    {
+      "questiontext": "What is the advantage of using a Sigmoid neuron in a neural network?",
+      "answers": [ "It can accept a higher amount of inputs", "The activation function is non-linear", "It enables a wider range of output values", "The summation and bias is calculated in a more meaningful way" ],
+      "correctanswers": [ 2 ]
     },
     {
       "questiontext": "How does a neural network improve accuracy?",
