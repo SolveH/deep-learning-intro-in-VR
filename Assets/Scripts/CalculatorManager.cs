@@ -82,7 +82,7 @@ public class CalculatorManager : MonoBehaviour
 
     private Double CalculateFourDecimalSigmoidValue (Double inputValue)
     {
-        Double sigmoidValue = 1 / (1 + Math.Exp(inputValue));
+        Double sigmoidValue = 1 / (1 + Math.Exp(-inputValue));
         sigmoidValue = Math.Round(sigmoidValue, 4);
         return sigmoidValue;
     }
