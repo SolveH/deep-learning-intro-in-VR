@@ -41,6 +41,7 @@ public class UIManager : MonoBehaviour
 
     public void PlaySubtitles()
     {
+        credits.SetActive(true);
         creditsAnimator.SetTrigger("PlayCredits");
         leftScreen.SetActive(false);
         midScreen.SetActive(false);
@@ -58,5 +59,6 @@ public class UIManager : MonoBehaviour
         leftScreen.SetActive(true);
         midScreen.SetActive(true);
         rightScreen.SetActive(true);
+        credits.SetActive(false);
     }
 }

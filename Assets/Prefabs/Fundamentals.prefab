@@ -382,6 +382,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6277605479916155857, guid: e9a83d4c89b6df64d80bacfc5ecc9589,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2985913529210342759, guid: e9a83d4c89b6df64d80bacfc5ecc9589,
         type: 3}
       propertyPath: teleporter
