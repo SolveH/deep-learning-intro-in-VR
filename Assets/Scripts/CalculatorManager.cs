@@ -10,11 +10,12 @@ public class CalculatorManager : MonoBehaviour
     public TMP_Text outputText;
     public TMP_Text sigmoidOutputText;
     private string currentText = "";
+    private AudioSource beepAudioSource;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        beepAudioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -25,6 +26,7 @@ public class CalculatorManager : MonoBehaviour
 
     public void ButtonPressed(string buttonContent)
     {
+        beepAudioSource.Play();
         if(buttonContent == "del")
         {
             currentText = currentText.Substring(0, currentText.Length - 1);
