@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -17409,11 +17409,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2508668908924569576, guid: caa435a632139cc42ba8f2ff90a792da,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 929674165048047685, guid: caa435a632139cc42ba8f2ff90a792da,
         type: 3}
       propertyPath: m_Layer
@@ -17848,6 +17843,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2508668908924569576, guid: caa435a632139cc42ba8f2ff90a792da,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caa435a632139cc42ba8f2ff90a792da, type: 3}
@@ -20450,6 +20450,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5186885591647404821, guid: 1cde8f42f235a4245be0965cbdf44288,
+        type: 3}
+      propertyPath: headsetVelocityTracker
+      value: 
+      objectReference: {fileID: 5186885590808898549}
+    - target: {fileID: 5186885591647404821, guid: 1cde8f42f235a4245be0965cbdf44288,
+        type: 3}
+      propertyPath: leftControllerVelocityTracker
+      value: 
+      objectReference: {fileID: 5186885590808898551}
+    - target: {fileID: 5186885591647404821, guid: 1cde8f42f235a4245be0965cbdf44288,
+        type: 3}
+      propertyPath: rightControllerVelocityTracker
+      value: 
+      objectReference: {fileID: 5186885590808898550}
     - target: {fileID: 3715353292173523924, guid: 1cde8f42f235a4245be0965cbdf44288,
         type: 3}
       propertyPath: targetValidity.field
@@ -20467,6 +20482,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cde8f42f235a4245be0965cbdf44288, type: 3}
+--- !u!114 &5186885590808898549 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5186885590443226099, guid: 1cde8f42f235a4245be0965cbdf44288,
+    type: 3}
+  m_PrefabInstance: {fileID: 5186885590808898548}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c06287e101a7c024185227cd4d1c239f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5186885590808898550 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5186885591894614586, guid: 1cde8f42f235a4245be0965cbdf44288,
+    type: 3}
+  m_PrefabInstance: {fileID: 5186885590808898548}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c06287e101a7c024185227cd4d1c239f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5186885590808898551 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5186885592048658403, guid: 1cde8f42f235a4245be0965cbdf44288,
+    type: 3}
+  m_PrefabInstance: {fileID: 5186885590808898548}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c06287e101a7c024185227cd4d1c239f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8561592769866057231
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -36,7 +36,7 @@ public class UIManager : MonoBehaviour
 
     public void OpenSurveyInBrowser()
     {
-        Application.OpenURL("https://forms.gle/kxvfuiEaJCGM7bbE6");
+        Application.OpenURL("https://forms.office.com/Pages/ResponsePage.aspx?id=cgahCS-CZ0SluluzdZZ8BWFeAtQp0AZFtMLY8Z3zzgxURTZGSDdBSTNMTlAwQ1BVUVdZVE5VV0U2TS4u");
     }
 
     public void PlaySubtitles()

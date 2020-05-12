@@ -7,7 +7,7 @@ QualitySettings:
   m_CurrentQuality: 0
   m_QualitySettings:
   - serializedVersion: 2
-    name: Very shit
+    name: Standard
     pixelLightCount: 1
     shadows: 0
     shadowResolution: 0
