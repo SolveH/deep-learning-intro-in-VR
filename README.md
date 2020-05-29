@@ -13,6 +13,7 @@ This [5-minute YouTube video](https://youtu.be/TvlN-dxAn4M/ "5-minute YouTube vi
 
 
 # Technology
+The technologies listed below were used for developing the application for the Oculus Quest. I used inspiration from the [Design, Develop, and Deploy for VR](https://learn.unity.com/course/oculus-vr "Design, Develop, and Deploy for VR") for setting up the fundamentals of the project. 
 
 ## Game Engine
 [Unity](https://unity.com/ "Unity") 2018 LTS version. 
