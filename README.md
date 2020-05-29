@@ -1,7 +1,7 @@
 # Deep Learning Introduction in VR
 This is my master thesis project, where we explored how VR can be utilized as a tool for learning in AI education. 
 I developed a prototype application for the Oculus Quest, where students are given an introduction to deep learning and neural networks. 
-Users find themselves in an escape room environment, where topics have been split into separate rooms of the application. 
+Users find themselves in an escape room environment, where topics have been split into separate rooms. 
 The user progress through the application by doing 3D-puzzles, calculations, and quizzes, based on the course-material. 
 
 # Motivation
