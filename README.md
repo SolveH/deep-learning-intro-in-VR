@@ -42,7 +42,7 @@ If you want to try the application, you can find it in this [Google Drive with t
 # License
 MIT License
 
-Copyright (c) [2020] [Sølve Robert Bø Hunvik]
+Copyright © [2020] [Sølve Robert Bø Hunvik]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
