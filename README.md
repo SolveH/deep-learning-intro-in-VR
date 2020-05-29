@@ -31,7 +31,7 @@ The technologies listed below were used for developing the application for the O
 * [Unity Snaps](https://unity.com/products/snaps/ "Unity Snaps") for efficiently building room layouts.
 
 # Usage
-## Using the project code
+## Setting up the project
 1. Download or clone the project. 
 2. Open Unity Hub. 
 3. Add the project to Unity Hub from the project's location in your file system. 
