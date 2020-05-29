@@ -23,4 +23,13 @@ This [5-minute YouTube video](https://youtu.be/TvlN-dxAn4M/ "5-minute YouTube vi
 
 ## Other useful stuff
 * [JSON .NET For Unity](https://assetstore.unity.com/packages/tools/input-management/json-net-for-unity-11347/ "JSON .NET For Unity") for handling JSON files in Unity. 
-* [Unity Snaps](https://unity.com/products/snaps/ "Unity Snaps")
+* [Unity Snaps](https://unity.com/products/snaps/ "Unity Snaps") for efficiently building room layouts.
+
+# Usage
+## Using the project code
+1. Download or clone the project. 
+2. Open the project in Unity. 
+
+## Try the application
+If you want to try the application, you can find it in this [Google Drive with the application for Oculus Quest, Rift, and Rift S](https://drive.google.com/drive/folders/1gGYGSx95d3tFXYZE2iuZ6CZ1LorzNztE?usp=sharing "Google Drive with application"). Installation guides are provided for all devices.  
+
