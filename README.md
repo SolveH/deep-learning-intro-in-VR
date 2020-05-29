@@ -9,7 +9,7 @@ There is a large need for AI competence worldwide. Also, having good technologic
 We wanted to see if VR can be a valuable tool for fulfulling the need of AI competence. 
 
 # Publications
-A link to the master thesis report will be added here when it is published. We are also planning to write a paper about the project. 
+A link to the master thesis report will be added here when it is published. We are also planning to write a research paper about the project. 
 
 # Video
 This [5-minute YouTube video](https://youtu.be/TvlN-dxAn4M/ "5-minute YouTube video") explains the core-concepts and shows what was developed for the application. 
