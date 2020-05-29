@@ -8,7 +8,7 @@ The user progress through the application by doing 3D-puzzles, calculations, and
 There is a large need for AI competence worldwide. Also, having good technological tools for learning has shown to be more important than ever, due to the global pandemic of 2020.
 We wanted to see if VR can be a valuable tool for fulfulling the need of AI competence. 
 
-# Master Thesis Report
+# Publications
 A link to the master thesis report will be added here when it is published. We are also planning to write a paper about the project. 
 
 # Video
