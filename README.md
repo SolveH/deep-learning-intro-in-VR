@@ -22,7 +22,7 @@ The image to the right shows the visualization of gradient descent.
 
 ## Description
 ### Tutorial Scene
-Since many users in the target audience are assumed to be new to VR, they have to play through a 5-10 minute tutorial, where every interaction needed is taught. 
+Since many users in the target audience are assumed to be new to VR, they have to play through a 5-10 minute tutorial, where every interaction needed is taught.  [Tutorial play-through YouTube video](https://youtu.be/w62h4PyNVGA " Tutorial play-through YouTube video")
 
 ### Deep Learning Introduction Scene
 The curriculum was split into separate rooms. The user needs to collect and win cartridges loaded with quizzes for each topic in order to complete the application. Playing through the application takes approximately 30-90 minutes. The topics covered in the application are:
@@ -30,6 +30,8 @@ The curriculum was split into separate rooms. The user needs to collect and win 
 2. Cost functions
 3. Gradient Descent
 4. Backpropagation
+[Deep learning introduction play-through YouTube video](https://youtu.be/Mfcauuc-pD8 "Deep learning introduction play-through YouTube video")
+
 
 # Technology
 The technologies listed below were used for developing the application for the Oculus Quest. I used inspiration from the [Design, Develop, and Deploy for VR](https://learn.unity.com/course/oculus-vr "Design, Develop, and Deploy for VR") Unity Learn course by Oculus for setting up the fundamentals. This project supports the Oculus Quest, Rift, and Rift S, but it should be possible to port it to OpenVR devices without too much effort. 
