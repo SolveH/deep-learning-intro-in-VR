@@ -46,7 +46,7 @@ If you want to try the application, you can find it in this [Google Drive for Oc
 
 # Credits
 The application was developed by Sølve Robert Bø Hunvik during his master thesis project at the Norwegian University of Science and Technology in the Department of Computer Science. 
-Frank Lindseth was the project's supervisor. 
+Frank Lindseth was the project's supervisor. Every free resource used for the project is credited within the game menu. 
 
 # License
 This project is licensed under the MIT license. 
