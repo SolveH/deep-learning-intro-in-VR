@@ -50,7 +50,7 @@ The technologies listed below were used for developing the application for the O
 # Usage
 ## Setting up the project
 1. Download or clone the project. 
-2. Open Unity Hub and add the project. 
+2. Open [Unity Hub](https://unity3d.com/get-unity/download "Unity Hub") and add the project. 
 3. Make sure you have the right version of Unity installed. 
 4. Open the project. 
 
