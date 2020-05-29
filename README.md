@@ -5,7 +5,7 @@ Users find themselves in an escape room environment, where topics have been spli
 The user progress through the application by doing 3D-puzzles, calculations, and quizzes, based on the course-material. 
 
 # Motivation
-There is a large need for AI competence worldwide. Also, having good technological tools for learning has shown to be more important than ever, due to the global pandemic of 2020.
+There is a large need for AI competence worldwide. Having good technological tools for learning has shown to be more important than ever, due to the global pandemic of 2020.
 We wanted to see if VR can be a valuable tool for fulfulling the need of AI competence. 
 
 # Publications
