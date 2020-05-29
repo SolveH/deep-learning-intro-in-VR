@@ -39,7 +39,7 @@ The technologies listed below were used for developing the application for the O
 5. Open the project. 
 
 ## Try the application
-If you want to try the application, you can find it in this [Google Drive with the application for Oculus Quest, Rift, and Rift S](https://drive.google.com/drive/folders/1gGYGSx95d3tFXYZE2iuZ6CZ1LorzNztE?usp=sharing "Google Drive with application"). Installation guides are provided for all devices.  
+If you want to try the application, you can find it in this [Google Drive for Oculus Quest, Rift, and Rift S](https://drive.google.com/drive/folders/1gGYGSx95d3tFXYZE2iuZ6CZ1LorzNztE?usp=sharing "Google Drive with application"). Installation guides are provided for all devices.  
 
 # License
 This project is licensed under the MIT license. 
