@@ -43,6 +43,6 @@ If you want to try the application, you can find it in this [Google Drive for Oc
 
 # License
 This project is licensed under the MIT license. 
-More details in [LICENSE](https://github.com/SolveH/master-thesis-unity/blob/master/LICENSE "LICENSE").
+More details in [LICENSE](https://github.com/SolveH/master-thesis-unity/blob/master/LICENSE.md "LICENSE").
 
 Copyright © 2020 Sølve Robert Bø Hunvik
