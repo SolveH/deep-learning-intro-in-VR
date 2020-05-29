@@ -17,7 +17,7 @@ The image to the left shows one of the tasks where the user learns neural networ
 The image to the right shows the visualization of gradient descent. 
 
 # Technology
-The technologies listed below were used for developing the application for the Oculus Quest. I used inspiration from the [Design, Develop, and Deploy for VR](https://learn.unity.com/course/oculus-vr "Design, Develop, and Deploy for VR") Unity Learn course by Oculus for setting up the fundamentals of the project. 
+The technologies listed below were used for developing the application for the Oculus Quest. I used inspiration from the [Design, Develop, and Deploy for VR](https://learn.unity.com/course/oculus-vr "Design, Develop, and Deploy for VR") Unity Learn course by Oculus for setting up the fundamentals of the project. This project supports the Oculus Quest, Rift, and Rift S, but it should be possible to port it to OpenVR devices without too much effort. 
 
 ## Game Engine
 [Unity](https://unity.com/ "Unity") 2018 LTS version. 
