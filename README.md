@@ -44,6 +44,10 @@ The technologies listed below were used for developing the application for the O
 ## Try the application
 If you want to try the application, you can find it in this [Google Drive for Oculus Quest, Rift, and Rift S](https://drive.google.com/drive/folders/1gGYGSx95d3tFXYZE2iuZ6CZ1LorzNztE?usp=sharing "Google Drive with application"). Installation guides are provided for all devices.  
 
+# Credits
+The application was developed by Sølve Robert Bø Hunvik during his master thesis project at the Norwegian University of Science and Technology in the Department of Computer Science. 
+Frank Lindseth was the project's supervisor. 
+
 # License
 This project is licensed under the MIT license. 
 More details in [LICENSE](https://github.com/SolveH/master-thesis-unity/blob/master/LICENSE.md "LICENSE").
