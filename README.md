@@ -4,19 +4,23 @@ I developed a prototype application for the Oculus Quest, where students are giv
 Users find themselves in an escape room environment, where topics have been split into separate rooms of the application. 
 The user progress through the application by doing 3D-puzzles, calculations, and quizzes, based on the course-material. 
 
-#Motivation
+# Motivation
 There is a large need for AI competence worldwide. Also, having good technological tools for learning has shown to be more important in 2020 than ever.
 We wanted to see if VR can be a valuable tool for fulfulling the need of AI competence. 
 
-#Video
-This 5-minute YouTube video explains the core-concepts and shows what I developed for the application. 
-https://youtu.be/TvlN-dxAn4M
+# Video
+This [5-minute YouTube video](https://youtu.be/TvlN-dxAn4M/ "5-minute YouTube video") explains the core-concepts and shows what I developed for the application. 
 
-#Technology
 
-##Game Engine
-Unity 2018 LTS version. 
+# Technology
 
-##SDKs
-* Oculus Integration Kit for hardware integration
-* [link](https://www.vrtk.io/ "Virtual Reality Toolkit v4 (VRTK)")
+## Game Engine
+[Unity](https://unity.com/ "Unity") 2018 LTS version. 
+
+## SDKs
+* [Oculus Integration](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022 "Virtual Reality Toolkit v4 (VRTK)") for hardware integration.
+* [Virtual Reality Toolkit v4 (VRTK)](https://www.vrtk.io/ "Virtual Reality Toolkit v4 (VRTK)") for interactions. 
+
+## Other useful stuff
+* [JSON .NET For Unity](https://assetstore.unity.com/packages/tools/input-management/json-net-for-unity-11347/ "JSON .NET For Unity") for handling JSON files in Unity. 
+* [Unity Snaps](https://unity.com/products/snaps/ "Unity Snaps")
