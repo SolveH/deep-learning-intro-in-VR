@@ -12,7 +12,7 @@ We wanted to see if VR can be a valuable tool for fulfulling the need of AI comp
 This [5-minute YouTube video](https://youtu.be/TvlN-dxAn4M/ "5-minute YouTube video") explains the core-concepts and shows what I developed for the application. 
 
 # Screenshots
-
+![Screenshot of neural network notation task and gradient descent visualization](https://github.com/SolveH/master-thesis-unity/blob/master/Assets/Resources/NNnotation_gradient_descent_screenshot.png)
 
 # Technology
 The technologies listed below were used for developing the application for the Oculus Quest. I used inspiration from the [Design, Develop, and Deploy for VR](https://learn.unity.com/course/oculus-vr "Design, Develop, and Deploy for VR") Unity Learn course by Oculus for setting up the fundamentals of the project. 
