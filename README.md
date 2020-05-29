@@ -22,10 +22,10 @@ The image to the right shows the visualization of gradient descent.
 
 ## Description
 ### Tutorial Scene
-Since many users in the target audience are assumed to be new to VR, they have to play through a 5-10 minute tutorial, where every interaction needed is taught.  [Tutorial play-through YouTube video](https://youtu.be/w62h4PyNVGA " Tutorial play-through YouTube video")
+Since many users in the target audience are assumed to be new to VR, they have to play through a 5-10 minute tutorial, where every interaction needed is taught.  [Tutorial play-through video](https://youtu.be/w62h4PyNVGA " Tutorial play-through YouTube video")
 
 ### Deep Learning Introduction Scene
-The curriculum was split into separate rooms. The user needs to collect and win cartridges loaded with quizzes for each topic in order to complete the application. Playing through the application takes approximately 30-90 minutes. [Deep learning introduction play-through YouTube video](https://youtu.be/Mfcauuc-pD8 "Deep learning introduction play-through YouTube video") The topics covered in the application are:
+The curriculum was split into separate rooms. The user needs to collect and win cartridges loaded with quizzes for each topic in order to complete the application. Playing through the application takes approximately 30-90 minutes. [Deep learning introduction play-through video](https://youtu.be/Mfcauuc-pD8 "Deep learning introduction play-through YouTube video") The topics covered in the application are:
 1. Neurons
 2. Cost functions
 3. Gradient Descent
