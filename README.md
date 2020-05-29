@@ -11,13 +11,25 @@ We wanted to see if VR can be a valuable tool for fulfulling the need of AI comp
 # Publications
 A link to the master thesis report will be added here when it is published. We are also planning to write a research paper about the project. 
 
-# Video
+# Application's contents
+## Video
 This [5-minute YouTube video](https://youtu.be/TvlN-dxAn4M/ "5-minute YouTube video") explains the core-concepts and shows what was developed for the application. 
 
-# Screenshots
+## Screenshots
 ![Screenshot of neural network notation task and gradient descent visualization](https://github.com/SolveH/master-thesis-unity/blob/master/Assets/Resources/NNnotation_gradient_descent_screenshot.png)
 The image to the left shows one of the tasks where the user learns neural network notation by placing neurons in a neural network. 
 The image to the right shows the visualization of gradient descent. 
+
+## Description
+### Tutorial Scene
+Since many users in the target audience are assumed to be new to VR, they have to play through a 5-10 minute tutorial, where every interaction needed is taught. 
+
+### Deep Learning Introduction Scene
+The curriculum was split into four rooms. The user needs to collect and win cartridges loaded with quizzes for each topic in order to complete the application. 
+1. Neurons
+2. Cost functions
+3. Gradient Descent
+4. Backpropagation
 
 # Technology
 The technologies listed below were used for developing the application for the Oculus Quest. I used inspiration from the [Design, Develop, and Deploy for VR](https://learn.unity.com/course/oculus-vr "Design, Develop, and Deploy for VR") Unity Learn course by Oculus for setting up the fundamentals. This project supports the Oculus Quest, Rift, and Rift S, but it should be possible to port it to OpenVR devices without too much effort. 
