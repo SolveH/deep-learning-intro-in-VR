@@ -63,6 +63,6 @@ Frank Lindseth was the project's supervisor. Every free resource used for the pr
 
 # License
 The project is licensed under the MIT license. 
-More details in [LICENSE](https://github.com/SolveH/master-thesis-unity/blob/master/LICENSE.md "LICENSE").
+More details in [LICENSE.md](https://github.com/SolveH/master-thesis-unity/blob/master/LICENSE.md "LICENSE.md").
 
 Copyright © 2020 Sølve Robert Bø Hunvik
