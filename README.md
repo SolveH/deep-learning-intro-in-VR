@@ -63,7 +63,7 @@ The application was developed by Sølve Robert Bø Hunvik during his master thes
 Frank Lindseth was the project's supervisor. Every free resource used for the project is credited within the game menu. 
 
 # License
-This project is licensed under the MIT license. 
+The project is licensed under the MIT license. 
 More details in [LICENSE](https://github.com/SolveH/master-thesis-unity/blob/master/LICENSE.md "LICENSE").
 
 Copyright © 2020 Sølve Robert Bø Hunvik
