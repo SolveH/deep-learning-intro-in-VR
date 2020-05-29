@@ -9,7 +9,7 @@ There is a large need for AI competence worldwide. Also, having good technologic
 We wanted to see if VR can be a valuable tool for fulfulling the need of AI competence. 
 
 # Video
-This [5-minute YouTube video](https://youtu.be/TvlN-dxAn4M/ "5-minute YouTube video") explains the core-concepts and shows what I developed for the application. 
+This [5-minute YouTube video](https://youtu.be/TvlN-dxAn4M/ "5-minute YouTube video") explains the core-concepts and shows what was developed for the application. 
 
 # Screenshots
 ![Screenshot of neural network notation task and gradient descent visualization](https://github.com/SolveH/master-thesis-unity/blob/master/Assets/Resources/NNnotation_gradient_descent_screenshot.png)
