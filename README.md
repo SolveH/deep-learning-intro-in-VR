@@ -31,7 +31,10 @@ The technologies listed below were used for developing the application for the O
 # Usage
 ## Using the project code
 1. Download or clone the project. 
-2. Open the project in Unity. 
+2. Open Unity Hub. 
+3. Add the project to Unity Hub from the project's location in your file system. 
+4. Make sure you have the right version of Unity installed. 
+5. Open the project. 
 
 ## Try the application
 If you want to try the application, you can find it in this [Google Drive with the application for Oculus Quest, Rift, and Rift S](https://drive.google.com/drive/folders/1gGYGSx95d3tFXYZE2iuZ6CZ1LorzNztE?usp=sharing "Google Drive with application"). Installation guides are provided for all devices.  
