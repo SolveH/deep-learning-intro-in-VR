@@ -43,4 +43,4 @@ If you want to try the application, you can find it in this [Google Drive with t
 This project is licensed under the MIT license. 
 More details in [LICENSE](https://github.com/SolveH/master-thesis-unity/blob/master/LICENSE "LICENSE").
 
-Copyright © [2020] [Sølve Robert Bø Hunvik]
+Copyright © 2020 Sølve Robert Bø Hunvik
