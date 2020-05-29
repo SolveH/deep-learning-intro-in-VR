@@ -13,6 +13,8 @@ This [5-minute YouTube video](https://youtu.be/TvlN-dxAn4M/ "5-minute YouTube vi
 
 # Screenshots
 ![Screenshot of neural network notation task and gradient descent visualization](https://github.com/SolveH/master-thesis-unity/blob/master/Assets/Resources/NNnotation_gradient_descent_screenshot.png)
+The image to the left shows one of the tasks where the user learns neural network notation by placing neurons in a neural network. 
+The image to the right shows the visualization of gradient descent. 
 
 # Technology
 The technologies listed below were used for developing the application for the Oculus Quest. I used inspiration from the [Design, Develop, and Deploy for VR](https://learn.unity.com/course/oculus-vr "Design, Develop, and Deploy for VR") Unity Learn course by Oculus for setting up the fundamentals of the project. 
