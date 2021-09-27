@@ -9,7 +9,7 @@ There is a large need for AI competence worldwide. Having good technological too
 We wanted to see if VR can be a valuable tool for fulfulling the need of AI competence. 
 
 # Publications
-A link to the master thesis report will be added here when it is published. 
+The master thesis report can be found here [Using Virtual Reality for Artificial Intelligence Education](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2777894).
 
 The research paper I wrote has been published by Springer and can be found here [Making Use of Virtual Reality for Artificial Intelligence Education](https://link.springer.com/chapter/10.1007/978-3-030-67435-9_5/ "Making Use of Virtual Reality for Artificial Intelligence Education"). I presented the work on the HELMeTO 2020 conference in September 2020. 
 
